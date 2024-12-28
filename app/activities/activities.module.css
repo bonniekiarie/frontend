@@ -1,0 +1,13 @@
+.itemContainer {
+    margin: 20px;
+    border: gainsboro 1px solid;
+    border-radius: 4px;
+    padding: 10px;
+}
+.itemTitle{
+    font-size: large;
+}
+.itemDate{
+    font-size: x-small;
+    font-style: italic;
+}

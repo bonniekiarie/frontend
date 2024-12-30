@@ -1,5 +1,4 @@
 
-def utils = load 'test.groovy'
 pipeline {
    
     agent any
@@ -8,6 +7,7 @@ pipeline {
             steps {
                 script {
                     echo "Hello Build..."
+                    def utils = load 'test.groovy'
                     utils.build()
                 }
                

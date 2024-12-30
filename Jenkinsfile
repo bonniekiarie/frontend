@@ -6,8 +6,11 @@ pipeline {
     stages {
         stage ("Build"){
             steps {
-                echo "Hello Build..."
-                utils.build()
+                script {
+                    echo "Hello Build..."
+                    utils.build()
+                }
+               
             }
         }
         stage ("Test"){
